@@ -3,11 +3,10 @@
     [
       "module-resolver",
       {
-        "root": ["./"],
+        "root": ["./src"],
         "alias": {
-          "@public": "./public",
-          "@components": "./src/components",
-          "~": "./src"
+          "@useCases": "./useCases",
+          "~": "./"
         }
       }
     ]
